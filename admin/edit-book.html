@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Book - Library Management System</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Edit Book</h1>
+        <nav>
+            <nav>
+                <a href="admin.html">Dashboard</a>
+               
+                    <a href="add-book.html">Add Book</a>
+                    <a href="view-books.html">View Books</a>
+                    <a href="manage-users.html">Manage Users</a>
+                <a href="manage-requests.html">Manage Requests</a>
+                <a href="manage-borrowed.html">Manage Borrowed Books</a>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <form id="editBookForm">
+            <label for="title">Book Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="pages">Book Pages:</label>
+            <input type="number" id="pages" name="pages" required>
+            
+            <label for="publisher">Book Publisher:</label>
+            <input type="text" id="publisher" name="publisher" required>
+            
+            <label for="author">Book Author:</label>
+            <input type="text" id="author" name="author" required>
+            
+            <label for="edition">Book Edition:</label>
+            <input type="text" id="edition" name="edition" required>
+            
+            <button type="submit">Save Changes</button>
+        </form>
+    </main>
+    <script src="../js/admin.js"></script>
+</body>
+</html>
